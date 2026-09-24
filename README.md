@@ -163,11 +163,13 @@ Please read [`REPLICATION_NOTES.md`](REPLICATION_NOTES.md) before making the rep
 
 ## Citation
 
-If you use this repository, please cite the associated paper. A `CITATION.cff.template` file is included with the paper authors already listed. Replace the remaining `TODO` fields with the final venue, DOI, repository URL, license, and release date, then rename it to `CITATION.cff` before publishing.
 
-## License
+If you use HyRAG or this replication package in your research, please cite our paper:
 
-Add the software/data license approved by the paper authors and your institution before making the repository public. Do not publish third-party datasets under a license that is incompatible with their original terms.
+S. Mortazavi, M. Mehrabi, M. Chouchen, and A. Hamou-Lhadj,  
+"HyRAG: A Hybrid Retrieval-Augmented Framework for Enhancing Compact LLMs in Log Parsing,"  
+CASCON 2026.
+
 
 ## Contact
 
