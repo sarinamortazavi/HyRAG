@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated HyRAG paper."
+title: "HyRAG: A Hybrid Retrieval-Augmented Framework for Enhancing Compact LLMs in Log Parsing"
+type: software
+authors:
+  - family-names: "Mortazavi"
+    given-names: "Sarina"
+  - family-names: "Mehrabi"
+    given-names: "Maryam"
+  - family-names: "Chouchen"
+    given-names: "Moataz"
+  - family-names: "Hamou-Lhadj"
+    given-names: "Abdelwahab"
+repository-code: "TODO_REPOSITORY_URL"
+abstract: "Replication package for the HyRAG log parsing framework."
+keywords:
+  - log parsing
+  - retrieval-augmented generation
+  - large language models
+  - AIOps
+version: "1.0.0"
+date-released: "2026-09-24"

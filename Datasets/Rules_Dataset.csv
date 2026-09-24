@@ -1,0 +1,23 @@
+RuleName,RuleDescription,Example,Template
+url,HTTP or HTTPS URL without query parameters,Downloading from https://www.example.com/index.html,Downloading from <*>
+mac_eui64,EUI-64 or extended MAC-like hardware identifier,Ido chip status changed: FF:F2:9F:16:E2:23:00:0D:60:E9:1D:DC ip=10.0.0.151 v=9 t=4 status=M Fri Jul 01 08:16:53 PDT 2005,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>
+mac_standard,Standard 6-part MAC address,"hostControllerOnline - Number of Paired devices = 1, List of Paired devices = ( ""84-41-67-32-db-e1"" )","hostControllerOnline - Number of Paired devices = <*>, List of Paired devices = ( ""<*>-<*>-<*>-<*>-<*>-<*>"" )"
+human_datetime,Human-readable date-time with weekday and month name,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,User unknown timed out after <*> seconds at <*>
+datetime,ISO-like date and time,Starting audit at 2017-05-16 05:00:00,Starting audit at <*>
+date,Date only in YYYY-MM-DD format,Backup completed on 2024-03-15,Backup completed on <*>
+time,Time only in HH:MM:SS or HH:MM:SS.sss format,[09:21:58.929] <<<< CRABS >>>> crabsFlumeHostAvailable: [ConsumerUI] Byte flume reports host available again.,[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again.
+ipv4_with_port,IPv4 address followed by a port number,External connection received from /8.8.8.8:12345,External connection received from /<*>
+file_path,Unix-style file or folder path,workerEnv.init() ok /etc/httpd/conf/workers2.properties,workerEnv.init() ok <*>
+domain_with_port,Domain or hostname followed by a port number,www.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,<*>:<*> open through proxy <*>:<*> HTTPS
+ipv4,IPv4 address,[client 222.166.160.184] Directory index forbidden by rule: /var/www/html/,[client <*>] Directory index forbidden by rule: <*>
+domain,Domain or multi-part hostname,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter,OutputCommitter is <*>
+uuid,UUID identifier,Instance b9000564-fe1a-409b-b8cc-1e88b294cd1d successfully migrated,Instance <*> successfully migrated
+hexadecimal,Hexadecimal token starting with 0x,"CE sym 2, at 0x0b85eee0, mask 0x05","CE sym <*>, at <*>, mask <*>"
+data_volume,Data size with unit,0MB HIGHMEM available.,<*> HIGHMEM available.
+duration,Duration with time unit,"NFS Mount failed on bglio716, slept 15 seconds, retrying (1)","NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)"
+version_number,Software or semantic version number with two or more dots,Version 2.0.0 Starting,Version <*> Starting
+decimal,Decimal number not inside an IP address,"Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",Node card status: ALERT <*> The <*> volt rail is OK. The <*> volt rail is OK.
+key_value_pair,Key-value pair using = or : separator,Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=600GB used_disk=0GB total_vcpus=20 used_vcpus=0 pci_stats=[],Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+alphanumeric_id,Token containing both letters and digits,ServerFileSystem domain dataCenter_04 exceeded limit,ServerFileSystem domain <*> exceeded limit
+numeric_id,Standalone numeric identifier,init_worker() Registered thread 9982 under bucket 21,init_worker() Registered thread <*> under bucket <*>
+static_message,Fallback static message used only when no dynamic rule matches,instruction cache parity error corrected,instruction cache parity error corrected

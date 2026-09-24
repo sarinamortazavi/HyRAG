@@ -1,0 +1,247 @@
+Content,EventId,EventTemplate,Source
+mod_jk child workerEnv in error state 8,E3,mod_jk child workerEnv in error state <*>,Apache
+[client 192.168.0.12] Directory index forbidden by rule: /home/user/public/,E4,[client <*>] Directory index forbidden by rule: <*>,Apache
+jk2_init() Can't find child 1678 in scoreboard,E5,jk2_init() Can't find child <*> in scoreboard,Apache
+"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 20 cluster_timestamp: 1445144423722 } attemptId: 1 } keyId: -127633188)",E61,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)",Hadoop
+OutputCommitter set in config null,E76,OutputCommitter set in config <*>,Hadoop
+Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler,E89,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop
+Scheduled snapshot period at 10 second(s).,E92,Scheduled snapshot period at <*> second(s).,Hadoop
+Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input;,E71,Not uberizing <*> because: not enabled; too many maps; too much input;,Hadoop
+Number of reduces for job job_1445144423722_0020 = 1,E73,Number of reduces for job <*> = <*>,Hadoop
+job_1445144423722_0020Job Transitioned from NEW to INITED,E55,<*> Transitioned from NEW to INITED,Hadoop
+"MRAppMaster launching normal, non-uberized, multi-container job job_1445144423722_0020.",E68,"MRAppMaster launching normal, non-uberized, multi-container job <*>.",Hadoop
+Starting Socket Reader #1 for port 62260,E98,Starting Socket Reader #<*> for port <*>,Hadoop
+Instantiated MRClientService at MININT-FNANLI5.fareast.corp.microsoft.com/10.86.169.121:62260,E49,Instantiated MRClientService at MININT-<*>/<*>:<*>,Hadoop
+IPC Server listener on 62260: starting,E50,IPC Server listener on <*>: starting,Hadoop
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog,E64,Logging to <*>(org.mortbay.log) via <*>,Hadoop
+jetty-6.1.26,E53,jetty-<*>,Hadoop
+Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\Users\msrabi\AppData\Local\Temp\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\webapp,E43,Extract jar:file:<*> to <*>,Hadoop
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267,E97,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>,Hadoop
+Web app /mapreduce started at 62267,E113,Web app <*> started at <*>,Hadoop
+JOB_CREATE job_1445144423722_0020,E57,JOB_CREATE <*>,Hadoop
+nodeBlacklistingEnabled:true,E70,nodeBlacklistingEnabled:<*>,Hadoop
+maxTaskFailuresPerNode is 3,E67,maxTaskFailuresPerNode is <*>,Hadoop
+Upper limit on the thread pool size is 500,E109,Upper limit on the thread pool size is <*>,Hadoop
+yarn.client.max-cached-nodemanagers-proxies : 0,E114,yarn.client.max-cached-nodemanagers-proxies : <*>,Hadoop
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack,E90,Resolved <*> to <*>,Hadoop
+task_1445144423722_0020_m_000000 Task Transitioned from NEW to SCHEDULED,E102,<*> Task Transitioned from NEW to SCHEDULED,Hadoop
+"Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist",E41,"Event Writer setup for JobId: <*>, File: hdfs://<*>",Hadoop
+"reduceResourceRequest:<memory:1024, vCores:1>",E87,"reduceResourceRequest:<memory:<*>, vCores:<*>",Hadoop
+Before Scheduling: PendingReds:1 ScheduledMaps:10 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:0 ContRel:0 HostLocal:0 RackLocal:0,E24,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:10240, vCores:-17> knownNMs=4",E45,"getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",Hadoop
+"Recalculating schedule, headroom=<memory:10240, vCores:-17>",E83,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>",Hadoop
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,E85,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop
+Got allocated containers 1,E46,Got allocated containers <*>,Hadoop
+The job-jar file on the remote FS is hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.jar,E107,The job-jar file on the remote FS is hdfs://<*>,Hadoop
+Size of containertokens_dob is 1,E95,Size of containertokens_dob is <*>,Hadoop
+attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,E21,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000002 taskAttempt attempt_1445144423722_0020_m_000000_0,E77,Processing the event EventType: <*> for container <*> taskAttempt <*>,Hadoop
+Launching attempt_1445144423722_0020_m_000000_0,E62,Launching <*>,Hadoop
+Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:54883,E74,Opening proxy : <*>:<*>,Hadoop
+Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000000_0 : 13562,E94,Shuffle port returned by ContainerManager for <*> : <*>,Hadoop
+TaskAttempt: [attempt_1445144423722_0020_m_000000_0] using containerId: [container_1445144423722_0020_01_000002 on NM: [04DN8IQ.fareast.corp.microsoft.com:54883],E105,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>],Hadoop
+task_1445144423722_0020_m_000000 Task Transitioned from SCHEDULED to RUNNING,E104,<*> Task Transitioned from SCHEDULED to RUNNING,Hadoop
+JVM with ID: jvm_1445144423722_0020_m_000002 given task: attempt_1445144423722_0020_m_000000_0,E59,JVM with ID: <*> given task: <*>,Hadoop
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.023958297,E80,Progress of TaskAttempt <*> is : <*>,Hadoop
+Received completed container container_1445144423722_0020_01_000012,E84,Received completed container <*>,Hadoop
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,E19,<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,Hadoop
+KILLING attempt_1445144423722_0020_m_000003_0,E60,KILLING <*>,Hadoop
+Task succeeded with attempt attempt_1445144423722_0020_m_000003_0,E100,Task succeeded with attempt <*>,Hadoop
+task_1445144423722_0020_m_000003 Task Transitioned from RUNNING to SUCCEEDED,E103,<*> Task Transitioned from RUNNING to SUCCEEDED,Hadoop
+Num completed Tasks: 1,E72,Num completed Tasks: <*>,Hadoop
+We launched 1 speculations.  Sleeping 15000 milliseconds.,E112,We launched <*> speculations. Sleeping <*> milliseconds.,Hadoop
+Scheduling a redundant attempt for task task_1445144423722_0020_m_000000,E93,Scheduling a redundant attempt for task <*>,Hadoop
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 30 seconds.  Will retry shortly ...,E44,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...,Hadoop
+"Slow ReadProcessor read fields took 65020ms (threshold=30000ms); ack: seqno: -2 status: SUCCESS status: ERROR downstreamAckTimeNanos: 0, targets: [10.86.169.121:50010, 10.190.173.170:50010]",E96,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>, <*>:<*>]",Hadoop
+"Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",E91,"Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",Hadoop
+Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost,E101,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,Hadoop
+Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0,E99,Task cleanup failed for attempt <*>,Hadoop
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,E16,<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,Hadoop
+Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d,E40,Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>,Hadoop
+"Thread Thread[eventHandlingThread,5,main] threw an Exception.",E108,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception.",Hadoop
+Received block blk_1859203847593845730 of size 104857600 from /192.168.1.44,E11,Received block <*> of size <*> from <*>,Hdfs
+Receiving block blk_9481203857192845601 src: /10.10.45.22:43820 dest: /10.10.45.22:50010,E13,Receiving block <*> src: <*>:<*> dest: <*>:<*>,Hdfs
+192.168.1.22:50010:Got exception while serving blk_-8723419872348971234 to /192.168.1.101,E3,<*>:<*>:Got exception while serving <*> to <*>:,Hdfs
+BLOCK* ask 172.16.5.33:50060 to delete blk_-5839201847501234987,E4,BLOCK* ask <*>:<*> to delete <*>,Hdfs
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.0.0.35:50075 is added to blk_6738492013847562934 size 50331648,E6,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>,Hdfs
+BLOCK* NameSystem.allocateBlock: /data/output/_temporary/_task_200910152115_0005_m_000305_0/part-00305. blk_-3829475619283746592,E7,BLOCK* NameSystem.allocateBlock: <*> <*>,Hdfs
+BLOCK* NameSystem.delete: blk_8392745610923847561 is added to invalidSet of 192.168.1.45:50010,E8,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>,Hdfs
+onExtend:58790 85621 25705 10355,E39,onExtend:<*> <*> <*> <*>,HealthApp
+getTodayTotalDetailSteps = 77276##34807##68024##77692##99777##93534,E22,getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>,HealthApp
+setTodayTotalDetailSteps=1514038440000##7007##548365##8661##12361##27173954,E58,setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*>,HealthApp
+calculateCaloriesWithCache totalCalories=56499,E4,calculateCaloriesWithCache totalCalories=<*>,HealthApp
+REPORT : 10234 47782 80845 70924,E47,REPORT : <*> <*> <*> <*>,HealthApp
+Alarm uploadStaticsToDB totalSteps=75341:65699:11734:82854,E1,Alarm uploadStaticsToDB totalSteps=<*>:<*>:<*>:<*>,HealthApp
+writeDataToDB size 11575,E75,writeDataToDB size <*>,HealthApp
+"upLoadOneMinuteDataToEngine time=98597,65352,75918,86296,22431",E72,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>",HealthApp
+insertHiHealthData() checkAppType 9648 appID = 81826,E32,insertHiHealthData() checkAppType <*> appID = <*>,HealthApp
+"insertHiHealthData() size = 77770,app = 51673,One Data Type = 97011,packageName = 63720,writeStatType = 51201",E34,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",HealthApp
+"saveHealthDetailData() deviceID = 85359,clientID=41095,id=73801",E49,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",HealthApp
+"saveStatData() type =61876,time = 16919,statClient = 16939,who is 22373",E52,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",HealthApp
+"new date =92394, type=22083,16476,old=67412",E37,"new date =<*>, type=<*>,<*>,old=<*>",HealthApp
+"saveHealthDetailData() saveOneDetailData fail hiHealthData = 3295,type = 88721",E50,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>",HealthApp
+startListenerChange subscribeList = [99293],E63,startListenerChange subscribeList = [<*>],HealthApp
+"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 41639,errorMessage = ERR_DATA_INSERT",E31,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT",HealthApp
+uploadStaticsToDB() onResult type = 65515 obj=64197,E74,uploadStaticsToDB() onResult type = <*> obj=<*>,HealthApp
+uploadStaticsToDB failed message=true,E73,uploadStaticsToDB failed message=<*>,HealthApp
+"stepSyncOrNot appSynTimes is 65217, statsyncTimes is 13405",E67,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",HealthApp
+"startInsertSportSync start auto sync,app is 9429",E62,"startInsertSportSync start auto sync,app is <*>",HealthApp
+"checkFirstSyncByType no such data in db ,type is 57470 deviceCode is 48174",E6,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",HealthApp
+"startInsertSportSync first 51142 steps sync,do all sync",E61,"startInsertSportSync first <*> steps sync,do all sync",HealthApp
+"startSync hiSyncOption = HiSyncOption{syncAction=77999, syncMethod=18417, syncScope=72497, syncDataType=33167, syncModel=66840, pushAction=55850},app = 8610 who = 60526",E64,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",HealthApp
+"saveRealTimeHealthDatasStat() size = 48659,totalTime = 79055",E51,"saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>",HealthApp
+InsertCallBack() onSuccess type = 6559 data=71830,E29,InsertCallBack() onSuccess type = <*> data=<*>,HealthApp
+setWriteDBLastDataMinute=53662,E60,setWriteDBLastDataMinute=<*>,HealthApp
+"timeStamp back,extendReportTimeStamp=26613",E69,"timeStamp back,extendReportTimeStamp=<*>",HealthApp
+theDayChanged 74841,E68,theDayChanged <*>,HealthApp
+registersensorsuccess: 4470,E45,registersensorsuccess: <*>,HealthApp
+getTodayBasicStandardSteps= 40825##78370##76971,E20,getTodayBasicStandardSteps= <*>##<*>##<*>,HealthApp
+tryToRecordAsBasicStepData bWrite 27333,E70,tryToRecordAsBasicStepData bWrite <*>,HealthApp
+getDiffTotalSteps= 30889##53966,E17,getDiffTotalSteps= <*>##<*>,HealthApp
+setBasicStandardSteps basicStandardStep=72548 restartSteps=55412,E55,setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>,HealthApp
+setDiffTotalSteps=1,E56,setDiffTotalSteps=<*>,HealthApp
+tryToReloadTodayBasicSteps1514044800223|3786|0|0,E71,<*>|<*>|<*>|<*>,HealthApp
+reload : 2250 restar 22503,E46,reload : <*> restar <*>,HealthApp
+setGoalNotifiShownRecord 60768 9054,E57,setGoalNotifiShownRecord <*> <*>,HealthApp
+"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is 46059 oldDay is 81514",E5,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>",HealthApp
+Temperature (52C) exceeds warning threshold,E44,Temperature (<*>) exceeds warning threshold,Hpc
+NIFF: node node-65 detected a failed network connection on network 2.5.219.0 via interface alt0,E27,NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0,Hpc
+Fan speeds ( 3551 3539 3373 **** 3518 3483 ),E17,Fan speeds ( <*> <*> <*> **** <*> <*> ),Hpc
+Fan speeds ( 3551 3530 3373 4242 3520 3476 ),E18,Fan speeds ( <*> <*> <*> <*> <*> <*> ),Hpc
+Temperature (43C) exceeds warning threshold,E44,Temperature (<*>) exceeds warning threshold,Hpc
+inconsistent nodesets node-163 0x0001edfe <ok> node-156 0x1001fdfe <ok> node-163 0x1001fdfe <ok> node-163 0x1001fdfe <ok>,E20,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>,Hpc
+ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-96,E9,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>,Hpc
+ambient=31,E2,ambient=<*>,Hpc
+boot (command 2096) Error: HALT asserted\ cannot continue,E5,boot (command <*>) Error: HALT asserted\ cannot continue,Hpc
+NIFF: node node-145 has detected an available network connection on network 7.5.229.5 via interface alt0,E28,NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0,Hpc
+clusterAddMember (command 1897),E8,clusterAddMember (command <*>),Hpc
+Component State Change: Component \042SCSI-WWID:1000011:6007-08b4-0-00c6-8-2999-003d-0\40 is in the unavailable state (HWID=1971),E13,Component State Change: Component <*> is in the unavailable state (HWID=<*>),Hpc
+risBoot (command 1906),E36,risBoot (command <*>),Hpc
+bootGenvmunix (command 1899),E6,bootGenvmunix (command <*>),Hpc
+wait (command 1974),E45,wait (command <*>),Hpc
+halt (command 1977),E19,halt (command <*>),Hpc
+Targeting domains:node-D7 and nodes:node-[225\ 223\ 227],E43,Targeting domains:node-<*> nodes:node-<*>,Hpc
+ClusterFileSystem: There is no server for ServerFileSystem domain storage234,E10,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,Hpc
+ServerFileSystem: An ServerFileSystem domain panic has occurred on storage442,E39,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,Hpc
+ServerFileSystem: ServerFileSystem domain root14_local is full,E40,ServerFileSystem: ServerFileSystem domain <*> is full,Hpc
+risBoot (command 1906) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,E37,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,Hpc
+Failed subcommands 3408,E16,Failed subcommands <*>,Hpc
+NIFF: node node-134 has detected an available network connection on network 8.127.0.0 via interface ee0,E29,NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0,Hpc
+*** info [mice.c(1987)]:,E1,*** info [mice.c(<*>)]:,Linux
+apm: BIOS version 1.1 Flags 0x04 (Driver version 1.17ac),E10,apm: BIOS version <*> Flags <*> (Driver version <*>),Linux
+session closed for user root,E101,session closed for user <*>,Linux
+"Total HugeTLB memory allocated, 1",E108,"Total HugeTLB memory allocated, <*>",Linux
+Transparent bridge - 0000:00:1d.1,E109,Transparent bridge - <*>,Linux
+audit(1629475200.1234567890:5): initialized,E11,audit(<*>:<*>): initialized,Linux
+User unknown timed out after 600 seconds at Mon Mar 14 11:45:32 2004,E112,User unknown timed out after <*> seconds at <*> <*> <*> <*>:<*>:<*> <*>,Linux
+Version 2.3.1 Starting,E114,Version <*> Starting,Linux
+VFS: Disk quotas dquot_6.4.2,E115,VFS: Disk quotas <*>,Linux
+Authentication failed from 192.168.0.10 (192.168.0.10): Permission denied in replay cache code,E13,Authentication failed from <*> (<*>): Permission denied in replay cache code,Linux
+Authentication failed from 192.168.0.10 (192.168.0.10): Software caused connection abort,E14,Authentication failed from <*> (<*>): Software caused connection abort,Linux
+authentication failure; logname= uid=1001 euid=1001 tty=:1 ruser= rhost=,E15,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=,Linux
+512MB HIGHMEM available.,E2,<*> HIGHMEM available.,Linux
+BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved),E20,BIOS-e820: <*> - <*> (reserved),Linux
+Built 2 zonelists,E24,Built <*> zonelists,Linux
+Calibrating delay loop... 998.45 BogoMIPS,E25,Calibrating delay loop... <*> BogoMIPS,Linux
+connection from 192.168.1.100 () at Mon Aug 8 09:15:43 2006,E29,connection from <*> (<*>) at <*> <*> <*> <*>:<*>:<*> <*>,Linux
+256MB LOWMEM available.,E3,<*> LOWMEM available.,Linux
+Console: colour VGA+ 100x40,E30,Console: colour VGA+ <*>,Linux
+"CPU 1 irqstacks, hard=02A56000 soft=02A55000 ",E32,"CPU <*> irqstacks, hard=<*> soft=<*>",Linux
+CPU: Intel Pentium III (Coppermine) stepping 02,E33,CPU: Intel Pentium III (Coppermine) stepping <*>,Linux
+"CPU: L1 I cache: 32K, L1 D cache: 32K  ",E34,"CPU: L1 I cache: <*>, L1 D cache: <*>",Linux
+CPU: L2 cache: 512K,E35,CPU: L2 cache: <*>,Linux
+creating device node '/udev/ttyS0',E36,creating device node '<*>',Linux
+ACPI disabled because your bios is from 3000 and too old,E4,ACPI disabled because your bios is from <*> and too old,Linux
+Detected 933.456 MHz processor.,E40,Detected <*> MHz processor.,Linux
+DMI 2.1 present.,E42,DMI <*> present.,Linux
+"Dquot-cache hash table entries: 2048 (order 1, 8192 bytes)",E43,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)",Linux
+HCI daemon ver 2.0 started,E48,HCI daemon ver <*> started,Linux
+"HighMem zone: 32768 pages, LIFO batch:16",E50,"HighMem zone: <*> pages, LIFO batch:<*>",Linux
+imps2: Auto-detected intellimouse PS/1,E51,imps2: Auto-detected intellimouse PS/<*>,Linux
+Initializing CPU#1,E52,Initializing CPU#<*>,Linux
+"Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)",E55,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)",Linux
+Intel machine check reporting enabled on CPU#1.,E57,Intel machine check reporting enabled on CPU#<*>.,Linux
+Kernel command line: ro boot=LABEL=/ rhgb quiet,E62,Kernel command line: ro <*>=LABEL=/ rhgb quiet,Linux
+kernel.core_uses_pid = 2,E63,kernel.core_uses_pid = <*>,Linux
+"klogd 1.4.2, log source = /dev/kmsg started.",E64,"klogd <*>, log source = <*> started.",Linux
+Linux agpgart interface v0.90 (c) Dave Jones,E66,Linux agpgart interface <*> (c) Dave Jones,Linux
+Linux Plug and Play Support v0.95 (c) Adam Belay,E67,Linux Plug and Play Support <*> (c) Adam Belay,Linux
+Linux version 2.6.8-1.521 (bhcompile@bugs.build.redhat.com) (gcc version 3.4.2 20041017 (Red Hat Linux 3.4.2-6.fc3)) #1 Tue Nov 9 14:21:32 EDT 2004,E68,Linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> (Red Hat Linux <*>)) #<*> <*> <*> <*> <*>:<*>:<*> EDT <*>,Linux
+mapped 4G/4G trampoline to ffffe000.,E69,mapped 4G/4G trampoline to <*>.,Linux
+ACPI: Subsystem revision 20060127,E7,ACPI: Subsystem revision <*>,Linux
+"Memory: 256000k/262144k available (2048k kernel code, 4096k reserved, 1024k data, 256k init, 0k highmem)",E70,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",Linux
+mtrr: v1.0 (19991203),E72,mtrr: <*> (<*>),Linux
+NET: Registered protocol family 17,E73,NET: Registered protocol family <*>,Linux
+"Normal zone: 16384 pages, LIFO batch:4",E74,"Normal zone: <*> pages, LIFO batch:<*>",Linux
+On node 1 totalpages: 32768,E76,On node <*> totalpages: <*>,Linux
+"PCI: PCI BIOS revision 2.30 entry at 0xfa000, last bus=5 ",E78,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>",Linux
+ALERT exited abnormally with [0],E8,ALERT exited abnormally with [<*>],Linux
+PCI: Using configuration type 2,E81,PCI: Using configuration type <*>,Linux
+PCI: Using IRQ router PIIX/ICH [8086/1234] at 0000:00:1e.0,E82,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>,Linux
+pci_hotplug: PCI Hot Plug PCI Core version: 0.4,E83,pci_hotplug: PCI Hot Plug PCI Core version: <*>,Linux
+Real Time Clock Driver v2.0,E87,Real Time Clock Driver <*>,Linux
+Received SNMP packet(s) from 10.0.0.42,E88,Received SNMP packet(s) from <*>,Linux
+removing device node '/udev/ttyS1',E89,removing device node '<*>',Linux
+"ANONYMOUS FTP LOGIN FROM 172.16.0.8, (anonymous)",E9,"ANONYMOUS FTP LOGIN FROM <*>, (anonymous)",Linux
+GUEST LOGIN ON tty2,E91,<*> LOGIN ON tty2,Linux
+sdpd v1.6 started,E95,sdpd <*> started,Linux
+Security Scaffold v1.1.2 initialize,E96,Security Scaffold <*> initialized,Linux
+Failed password for invalid user admin from 192.168.56.101 port 49210 ssh2,E10,Failed password for invalid user <*> from <*> port <*> ssh2,Openssh
+Invalid user testuser from 10.0.1.55,E13,Invalid user <*> from <*>,Openssh
+PAM 2 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.101,E15,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,Openssh
+PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.101,E16,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,Openssh
+PAM service(sshd) ignoring max retries; 7> 4,E18,PAM service(sshd) ignoring max retries; <*> > <*>,Openssh
+Connection closed by 192.168.0.101 [preauth],E2,Connection closed by <*> [preauth],Openssh
+pam_unix(sshd:session): session closed for user xyz,E22,pam_unix(sshd:session): session closed for user <*>,Openssh
+Received disconnect from 10.0.2.35: 13: Bye Bye [preauth],E24,Received disconnect from <*>: <*>: Bye Bye [preauth],Openssh
+Received disconnect from 10.0.2.35: 13: disconnected by user,E26,Received disconnect from <*>: <*>: disconnected by user,Openssh
+Disconnecting: Too many authentication failures for root [preauth],E4,Disconnecting: Too many authentication failures for <*> [preauth],Openssh
+error: Received disconnect from 10.0.2.35: 13: com.jcraft.jsch.JSchException: Auth fail [preauth],E6,error: Received disconnect from <*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth],Openssh
+Failed password for root from 192.168.56.101 port 49210 ssh2,E9,Failed password for <*> from <*> port <*> ssh2,Openssh
+input_userauth_request: invalid user test8 [preauth],E12,input_userauth_request: invalid user <*> [preauth],Openssh
+"tcpconn6.tencent.com:8787 close, 1944 bytes sent, 576 bytes received, lifetime 00:58",E8,"<*> close, <*> <*>, <*> <*>, lifetime <*>",Proxifier
+server.example.com:6204 open through proxy proxy.cse.cuhk.edu.hk:2725 SOCKS5,E1,<*>:<*> open through proxy <*>:<*> SOCKS5,Proxifier
+183.62.156.108:3301 error : A connection request was canceled before the completion.,E7,<*>:<*> error : A connection request was canceled before the completion.,Proxifier
+223.167.104.147:4565 error : Could not connect to proxy proxy.cse.cuhk.edu.hk - Could not resolve proxy.cse.cuhk.edu.hk error 10957,E3,<*>:<*> error : Could not connect to proxy <*>:<*> - Could not resolve <*> error <*>,Proxifier
+"Registered signal handlers for [TERM, HUP, INT]",E22,"Registered signal handlers for [TERM, HUP, INT]",Spark
+"Changing modify acls to: user1,user2  ",E4,Changing modify acls to: <*>,Spark
+Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@mesos-master-01:52345],E23,Remoting started; listening on addresses :[akka.tcp://<*>],Spark
+Successfully started service 'sparkExecutorActorSystem' on port 45000.,E34,Successfully started service 'sparkExecutorActorSystem' on port <*>.,Spark
+MemoryStore started with capacity 4.0 GB,E18,MemoryStore started with capacity <*> GB,Spark
+Starting executor ID 1 on host mesos-slave-01,E30,Starting executor ID <*> on host <*>,Spark
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40400.,E33,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Spark
+Server created on 40678,E27,Server created on <*>,Spark
+Running task 1.0 in stage 2.0 (TID 5),E24,Running task <*> in stage <*> (TID <*>),Spark
+"Block broadcast_2_piece0 stored as bytes in memory (estimated size 6.1 KB, free 6.1 KB)",E2,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",Spark
+Reading broadcast variable 1 took 85 ms,E20,Reading broadcast variable <*> took <*> ms,Spark
+"Block broadcast_1 stored as values in memory (estimated size 7.2 KB, free 12.5 KB)",E3,"Block <*> stored as values in memory (estimated size <*>, free <*>)",Spark
+"Partition rdd_2_1 not found, computing it",E19,"Partition <*> not found, computing it",Spark
+Input split: hdfs://192.168.1.100:8020/data/input/logfile1.log:10400+5120,E12,Input split: hdfs://<*>,Spark
+"Times: total = 980, boot = 750, init = 210, finish = 20  ",E35,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",Spark
+Finished task 2.0 in stage 0.0 (TID 2). 1536 bytes result sent to driver,E9,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Spark
+File Output Committer Algorithm version is 2,E8,File Output Committer Algorithm version is <*>,Spark
+Saved output of task 'attempt_202307151230_0001_m_000001_0456' to hdfs://10.0.0.1:9000/user/output/0/_temporary/0/task_202307151230_0001_m_000001,E25,Saved output of task '<*>' to hdfs://<*>,Spark
+Notification time out: 145027445,E31,Notification time out: <*>,Zookeeper
+"Connection broken for id 9473660, my id = 96375131, error =",E11,"Connection broken for id <*>, my id = <*>, error =",Zookeeper
+Client attempting to establish new session at 421479766:928966340,E7,Client attempting to establish new session at <*>:<*>,Zookeeper
+Established session 0xebcf25da49ef1d5b with negotiated timeout 10000 for client 177.232.228.134:6175,E13,Established session <*> with negotiated timeout <*> for client <*>:<*>,Zookeeper
+Accepted socket connection from /182.209.166.216:57282,E2,Accepted socket connection from <*>:<*>,Zookeeper
+Connection request from old client  /182.209.166.216:57282; will be dropped if server is in r-o mode,E12,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode,Zookeeper
+Cannot open channel to 4 at election address / /182.209.166.216:57282,E5,Cannot open channel to <*> at election address <*>:<*>,Zookeeper
+Processed session termination for sessionid: 0xebcf25da49ef1d5b,E38,Processed session termination for sessionid: <*>,Zookeeper
+"Expiring session 0xebcf25da49ef1d5b , timeout of 10000ms exceeded",E15,"Expiring session <*>, timeout of <*> exceeded",Zookeeper
+My election bind port: 83.6.158.89/241.131.237.29:8930,E29,My election bind port: <*>/<*>:<*>,Zookeeper
+"Have smaller server identifier, so dropping the connection: (3, 1)",E23,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",Zookeeper
+"New election. My id =  2, proposed zxid=0xebcf25da49ef1d5b",E30,"New election. My id = <*>, proposed zxid=<*>",Zookeeper
+FOLLOWING - LEADER ELECTION TOOK - 53,E19,FOLLOWING - LEADER ELECTION TOOK - <*>,Zookeeper
+Closed socket connection for client /177.232.228.134:6175 (no session established for client),E9,Closed socket connection for client <*>:<*> (no session established for client),Zookeeper
+Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,E14,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,Zookeeper
+"Notification: 1 (n.leader), 0xb00000048(n.zxid), 0x2 (n.round), LOOKING (n.state), 2 (n.sid), 0xb (n.peerEPoch), LOOKING (my state)",E37,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",Zookeeper
+Got user-level KeeperException when processing sessionid:0xebcf25da49ef1d5b type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper,E21,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,Zookeeper
+autopurge.purgeInterval set to 0,E3,autopurge.purgeInterval set to <*>,Zookeeper
+Follower sid: 4 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,E17,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,Zookeeper
+maxSessionTimeout set to -2,E27,maxSessionTimeout set to <*>,Zookeeper
+Have quorum of supporters; starting up and setting last processed zxid: 0xb00000084,E22,Have quorum of supporters; starting up and setting last processed zxid: <*>,Zookeeper
+"Notification: 1 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)",E33,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",Zookeeper
+First is 0x1,E16,First is <*>,Zookeeper
+"Notification: 1 (n.leader),  0xa0000009a (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 2 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)",E32,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",Zookeeper

@@ -1,0 +1,13 @@
+numpy
+pandas
+torch
+transformers
+sentence-transformers
+scikit-learn
+chromadb
+langchain
+langchain-community
+langchain-huggingface
+unsloth
+bitsandbytes
+jupyter
