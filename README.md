@@ -29,8 +29,6 @@ HyRAG/
 ├── src/
 │   └── hyrag.py
 ├── .gitignore
-├── CITATION.cff.template
-├── REPLICATION_NOTES.md
 ├── requirements.txt
 └── README.md
 ```
@@ -78,8 +76,6 @@ HyRAG outputs for `Test_Seen_Dataset.csv`, including predicted templates, retrie
 
 ### `HyRAG_Results_Unseen_Dataset.csv`
 HyRAG outputs for `Test_Unseen_Dataset.csv`, including predicted templates, retrieval source, and retrieval scores recorded by the experimental code used for that run.
-
-See [`REPLICATION_NOTES.md`](REPLICATION_NOTES.md) for important provenance notes about differences between the uploaded result files and the cleaned public notebook.
 
 ## HyRAG retrieval pipeline
 
